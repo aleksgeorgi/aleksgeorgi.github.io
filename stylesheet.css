@@ -1,0 +1,247 @@
+body{
+    background-color: #161316;
+}
+
+.mainBannerContainer{
+    position: auto;
+    display: block;
+    width: 1300px;
+    height: 780px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 0;
+}
+
+.mainBodyContainer{
+    position: auto;
+    display: block;
+    width: 1300px;
+    height: auto;
+    margin-top: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 0;
+    /* border-style: solid; 
+    border-color: aliceblue; */
+}
+
+.bannerImage {
+    position: relative;
+    display: block;
+    width: 1300px;
+    border-radius: 48px;
+}
+
+/* Aleksandra Georgievska Line Header text */
+.AGHeaderPosition {
+    position: relative;
+    display: block;
+    width: 700px;
+    top: -490px;
+    left: 30px;
+    opacity: 85%;
+}
+
+/* Former Pro Musician | Aspiring MLE Line Header text */
+.subHeaderPosition {
+    position: relative;
+    display: block;
+    width: 900px;
+    top: -470px;
+    left: 35px;
+    opacity: 85%;
+}
+
+
+.gitHubPosition {
+    position: relative;
+    display: block;
+    width: 65px;
+    top: -790px;
+    left: 1200px;
+    opacity: 85%;
+}
+
+.linkedInPosition {
+    position: relative;
+    display: block;
+    /* height: 50px; I don't understand why the size of the image is not changing from the css sheet. solved with inline html style addition*/
+    top: -760px;
+    left: 1205px;
+    opacity: 80%;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #2da4af;
+    font-weight: 100;
+    font-size: large;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+
+/* FIND A BETTER SOLUTION FOR ME */
+p, ul{ 
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+    color: #FFFFFF;
+    font-size: small;
+    text-align: justify;
+    max-width: 1100px;
+}
+
+
+.future_float_container {
+    display: flex;
+    margin-top: 45px;
+    height: 560px;
+}
+
+.future_float_child_L {
+    width: 26%;
+    float: left;
+    padding: 10px;
+}
+
+.future_float_child_R {
+    position:relative;
+    width: 74%;
+    float: right;
+    padding: 10px;
+}
+
+.aleksFuturePhoto {
+    height: 520px;
+    opacity: 85%;
+    border-radius: 48px;
+}
+
+.futureText{
+    padding-top: 20px;
+    max-width: 800px;
+}
+
+#footer_font{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#c6c6c676;
+    font-size: x-small;
+    text-align: right;
+}
+
+a {
+    color: #1d58fb;
+  }
+  
+a:link  {
+    color: #2da4af;
+}
+
+a:visited {
+    color: rgba(172, 59, 39, 0.515);
+  }
+
+/* 
+.Nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    padding: 28px 0px 0px 0px;
+}
+.Button {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: rgb(212, 211, 211);
+    transition: opacity 0.25s;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.main{
+    margin: 70px 50px;
+    background-color: rgb(32, 32, 32);
+    height: 600px;
+    width: 1025px;
+}
+
+h1, #header-name{
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(212, 211, 211);
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+h2, #header-name{
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: lowercase;
+    text-align: center;
+    background-color: rgb(212, 211, 211);
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#aleks{
+    margin: 45px 20px 0px 20px;
+    height: 290px;
+}
+
+.description{
+    text-align: justify;
+    overflow: hidden;
+    padding-left: 20px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-right: 3px;
+    height: 300px;
+    width: 680px;
+}
+
+img{
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-radius: 3%;
+    margin-left: 20px;
+    margin-top: 0;
+    box-shadow: -10px 10px 30px rgb(55, 49, 36);
+    object-fit: cover;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    color: rgb(212, 211, 211);
+    font-weight: lighter;
+    margin: 0%;
+}
+
+a {
+    color:#466995;
+}
+a visited{
+    color:rgb(148, 140, 155)
+}
+
+.main_projects{
+    margin: 20%;
+    text-align: center;
+} */
