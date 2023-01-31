@@ -104,29 +104,32 @@ body * {
   margin-left: max(14%, 50px);
 }
 
-.futureContainer {
+.aboutContainer {
   position: relative;
   margin-bottom: 20px;
   /* this is a hack because this div was not behaving correctly */
   border: 1px solid rgba(0, 0, 0, 0);
   height: min(500px, calc(100vh - 50%));
 }
-/* 
-.aleksFuturePhoto {
+
+.aleksPhoto {
   position: absolute;
   z-index: 1;
-  max-width: 56%;
+  max-width: 40%;
   max-height: 100%;
-  opacity: 85%;
-  border-radius: 48px;
-} */
-/* 
-#futureSection {
+  opacity: 100%;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+#aboutSection {
   position: relative;
   z-index: 2;
   margin-top: 28px;
-  margin-left: 38%;
-} */
+  margin-left: 36%;
+  max-width: 56%;
+}
 
 .footer {
   margin: 8px;
