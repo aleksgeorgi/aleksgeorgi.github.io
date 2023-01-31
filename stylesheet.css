@@ -84,6 +84,8 @@ body * {
 
 .mainBodySection {
   margin-bottom: 36px;
+  margin-right: max(3%, 20px);
+  
 }
 
 .mainBodySection h1 {
@@ -128,7 +130,7 @@ body * {
   z-index: 2;
   margin-top: 28px;
   margin-left: 36%;
-  max-width: 56%;
+  max-width: 60%;
 }
 
 .footer {
