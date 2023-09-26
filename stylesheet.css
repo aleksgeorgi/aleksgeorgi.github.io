@@ -39,6 +39,12 @@ body * {
   margin-left: 20px;
 }
 
+.banner {
+  position: relative;
+  margin-top: 200px;
+  color: #2da4af;
+}
+
 .title {
   font-size: 48px;
 }
@@ -119,12 +125,34 @@ body * {
   z-index: 1;
   margin-left: 2%;
   max-width: 40%;
-  max-height: 100%;
+  max-height: 80%;
   opacity: 100%;
   border-radius: 50%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
+
+/* Default styles for the video container */
+.video-container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.video-caption {
+  margin-top: 10px; /* Adjust the margin as needed to control spacing */
+  text-align: center;
+}
+
+/* Media query for screens with a maximum width of 600px (typical for phones) */
+@media screen and (max-width: 600px) {
+  .video-container {
+    width: 100%; /* Make the video container occupy the full width of the screen */
+  }
+}
+
 
 #aboutSection {
   position: relative;
