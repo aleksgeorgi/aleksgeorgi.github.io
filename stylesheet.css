@@ -128,8 +128,8 @@ body * {
   max-height: 80%;
   opacity: 100%;
   border-radius: 50%;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+  /* filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); */
 }
 
 /* Default styles for the video container */
